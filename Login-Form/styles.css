@@ -1,0 +1,240 @@
+.over {
+    position: absolute;
+    top: 15%;
+    left: 36.5%;
+}
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 3px whitesmoke;
+}
+
+.sign-in {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+.title {
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 105px;
+}
+
+.sign-up{
+    padding: 0px 5px;
+}
+
+.sign-up:hover {
+    text-decoration: underline;
+}
+
+.body {
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    border-top: 1px gray solid;
+}
+
+.email{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+.email-input {
+    position: absolute;
+    width: 300px;
+    height: 28px;
+    top: 80px;
+    left: 0%;
+    border-radius: 5px;
+    border: 1px rgb(147, 142, 142) solid;
+    padding-left: 10px;
+}
+
+.password {
+    position: absolute;
+    top: 135px;
+    left: 0px;
+}
+.password-input {
+    position: absolute;
+    top: 190px;
+    left: 0%;
+    width: 300px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px rgb(147, 142, 142) solid;
+    padding-left: 10px;
+}
+
+.bottom {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
+
+.button {
+    background-color: rgb(255, 132, 0);
+    width: 310px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px rgb(147, 142, 142) solid;
+}
+
+.button:hover {
+    background-color: rgb(207, 140, 16);
+}
+
+
+.forgot {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.end {
+    width: 200px;
+    height: 25px;
+    background-color: rgb(218, 218, 218);
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.power {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.power:hover {
+    text-decoration: underline;
+}
+
+/*
+.box {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 80% ;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 3px whitesmoke;
+}
+
+.head {
+    display: block;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+    padding-left: 5px;
+}
+
+.sign-up:hover{
+    text-decoration: underline;
+}
+
+.border {
+    display: flex;
+    border: 1px black solid;
+    margin: 2% 10%;
+}
+
+.body {
+    margin: 15% 5%;
+}
+
+label {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 100px;
+}
+
+.input {
+    width: calc(100% - 100px);
+    height: 28px;
+    border-radius: 5px;
+    border: 1px black solid;
+    opacity: 0.5;
+}
+
+.input:hover {
+    opacity: 1;
+}
+
+.email-box {
+    display: flex;
+}
+
+.password-box {
+    display: flex;
+    margin: 15% 0%;
+}
+
+
+.button {
+    width: 100%;
+    height: 25px;
+    background-color: orange;  
+    border-radius: 5px; 
+}
+
+.button:hover {
+    background-color: rgb(219, 145, 7);
+}
+
+.forgot {
+    margin: 10%;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.end {  
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+    background-color: gray;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.tokens {
+    text-decoration: none;
+}
+
+.tokens:hover {
+    text-decoration: underline;
+}
+*/

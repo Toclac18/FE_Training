@@ -1,0 +1,9 @@
+Open 2 terminals.
+The first terminal run the statement:
+'npx json-server --watch database.json --port 9999'
+-> port 9999 to run the virtual api
+The second terminal run the statement:
+'npm i'
+-> wait for the response then run the statement
+'npm start'
+Finally open the local:host port follow the screen result
