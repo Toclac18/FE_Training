@@ -141,3 +141,5 @@ function logger3(...rest) {
 }
 
 logger3(...arr)
+
+document.createElement

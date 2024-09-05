@@ -1,0 +1,180 @@
+/* GoogleSearchPage.css */
+
+/* Basic styles for the body */
+.google-search-page {
+    font-family: monospace;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+/* Styles for the top-right links */
+.top-right-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-right-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.top-right-links a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the sign-in button */
+.sign-in-button {
+    padding: 10px 25px;
+    border: 1px solid #1a73e8;
+    border-radius: 25px;
+    color: #e8f0fe !important;
+    background-color: #1a73e8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* .sign-in-button:hover {
+    background-color: #e8f0fe;
+} */
+
+/* Styles for the main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styles for the Google logo */
+.logo img {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+/* Styles for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.search-input {
+    width: 500px;
+    height: 40px;
+    padding: 0 80px 0px 40px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+}
+
+.icon-search {
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    color: grey;
+}
+.icon-search:hover{
+    box-shadow: 2px 2px;
+}
+
+.icon-microphone {
+    position: absolute;
+    right: 50px;
+    top: 13px;
+}
+.icon-microphone:hover {
+    box-shadow: 2px 2px;
+}
+
+.icon-camera {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+.icon-camera:hover {
+    box-shadow: 2px 2px;
+}
+/* Styles for the buttons */
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-button {
+    background-color: #f8f9fa;
+    border: 1px solid #dfe1e5;
+    color: #5f6368;
+    font-size: 14px;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.search-button:hover {
+    background-color: #f1f3f4;
+}
+
+/* Styles for the footer */
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;    
+    left: 0;
+}
+
+footer .footer-left, footer .footer-right {
+    display: flex;
+}
+
+footer a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the Google offered in section */
+.language-offer {
+    text-align: center;
+    font-size: 14px;
+    color: #5f6368;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.language-offer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.language-offer a:hover {
+    text-decoration: underline;
+}
