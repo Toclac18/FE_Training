@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Input = ({ className, type, placeholder, value, onChange }) => {
+const Input = ({ name, register, ...props }) => {
   return (
     <input
-      className={className}
-      type={type}
-      placeholder={placeholder}
-      value={value}
-      onChange={onChange}
+      className={props.className}
+      type={props.type}
+      placeholder={props.placeholder}
+      name={props.name}
+      register={props.name}
     />
   );
 };
