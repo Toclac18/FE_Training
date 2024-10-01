@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../Components/Button";
 import Link from "../Components/Link";
 import "../CSS/styles.css";
 import MyForm from "../Components/MyForm";

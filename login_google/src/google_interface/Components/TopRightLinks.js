@@ -3,12 +3,12 @@ import { useAuth } from "../../AuthContext";
 import { useNavigate } from "react-router-dom";
 
 const TopRightLinks = () => {
-  const { isLogged, logout } = useAuth();
+  const { isLogged, Logout } = useAuth();
   const navigate = useNavigate();
 
   const handleLogout = (event) => {
     event.preventDefault();
-    logout();
+    Logout();
     navigate('/home');
   }
 
@@ -17,9 +17,7 @@ const TopRightLinks = () => {
       <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">Gmail</a>
       <a href="https://www.google.com/imghp" target="_blank" rel="noopener noreferrer">Images</a>
       {isLogged ? (
-        <>
           <a href="/logout" className="sign-in-button" onClick={handleLogout}>Log out</a>
-        </>
       ) : (
         <a href="/login" className="sign-in-button">Log in</a>
       )}

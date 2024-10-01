@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form";
 import Validation from "../valid/validation.js";
 
 const MyForm = () => {
-    const{login} = useAuth();
+    const{Login} = useAuth();
     const navigate = useNavigate();
     const {register, handleSubmit} = useForm();
 
@@ -18,7 +18,7 @@ const MyForm = () => {
         } else {
             if(email === '1@gmail.com') {
                 if(password === '123') {
-                    login({email})
+                    Login({email})
                     navigate('/home')
                 } else {
                     alert("Wrong Password!!!")
@@ -33,10 +33,11 @@ const MyForm = () => {
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="form-container">
             <div className="box email-box">
-                <label className="email-label">Email: </label>
+                <label className="email-label" htmlFor="">Email: </label>
                 <Input
                     className="input email-input"
                     type="text"
+                    name="email"
                     placeholder="Email Address"
                     register={register}
                 />
@@ -47,6 +48,7 @@ const MyForm = () => {
                 <Input
                     className="input password-input"
                     type="text"
+                    name="password"
                     placeholder="Password"
                     register={register}
                 />
